@@ -41,6 +41,13 @@ dependencies:
   google_maps_flutter: ^2.2.5
   google_maps_webservice: ^0.0.19
   path_provider: ^2.0.14
+  geolocator: ^9.0.2
+  geocoding: ^2.1.0
+  firebase_auth: ^4.4.0
+  cloud_firestore: ^4.5.0
+  firebase_core: ^2.9.0
+  shared_preferences: ^2.1.0
+  tuple: ^2.0.1
 
 dev_dependencies:
   flutter_test:
@@ -64,7 +71,7 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
-    - assets/drt2566_06-.csv
+    - assets/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

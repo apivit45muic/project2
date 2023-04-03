@@ -58,6 +58,23 @@ class TrainStation {
     }
   }
 }
+//String file = 'assets/drt2566_06-.csv';
+Future<List<Map<String, String>>> loadSkytrainFareData() async {
+  final fareDataString = await rootBundle.loadString('assets/drt2566_06-.csv');
+  List<List<dynamic>> rowsAsListOfValues = const CsvToListConverter().convert(fareDataString);
+
+  List<Map<String, String>> fareData = [];
+
+  List<String> headers = rowsAsListOfValues[0].cast<String>();
+  for (int i = 1; i < rowsAsListOfValues.length; i++) {
+    List<String> rowValues = rowsAsListOfValues[i].map((value) => value.toString()).toList();
+    Map<String, String> row = Map.fromIterables(headers, rowValues);
+    fareData.add(row);
+  }
+
+  return fareData;
+}
+
 
 
 

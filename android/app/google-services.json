@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248791889121",
+    "project_id": "fir-demo-71fcc",
+    "storage_bucket": "fir-demo-71fcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248791889121:android:54e0126d4250f4c859f3a0",
+        "android_client_info": {
+          "package_name": "com.apiwitchon.project2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248791889121-i8rqpn1auqireioc1nfmahj46nbp7bti.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFrfNlMtuYbwT1-gpm73q2Wadbfht6v0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248791889121-i8rqpn1auqireioc1nfmahj46nbp7bti.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
